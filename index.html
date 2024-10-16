@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Rick and Morty</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Rick and Morty</h1>
+    </header>
+    <main>
+      <h2 class="page" id="page"></h2>
+      <div class="character-container">
+        <div id="display-characters" class="display-characters"></div>
+      </div>
+    </main>
+    <footer class="footer">
+      <button id="prev" class="prev">Previous</button>
+      <button id="next" class="next">Next</button>
+      <div>
+        <div id="loading" class="loading" style="display: none">Loading...</div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="factory.js"></script>
+  </body>
+</html>

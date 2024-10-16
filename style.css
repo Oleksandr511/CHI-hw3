@@ -1,0 +1,66 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: beige;
+}
+
+.title {
+  text-align: center;
+}
+
+.page {
+  text-align: center;
+}
+
+.display-characters {
+  background-color: aqua;
+  display: grid;
+  grid-template-columns: repeat(4, 5fr);
+  justify-content: space-around;
+  align-items: center;
+}
+
+.character-container {
+  display: grid;
+  grid-template-columns: 2fr;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer button {
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.prev {
+  float: left;
+  margin-left: 20px;
+}
+
+.next {
+  float: right;
+  margin-right: 20px;
+}
+
+
+.loading {
+  text-align: center;
+  margin-top: 20px;
+  color: red;
+  background-color: violet;
+
+  width:  300px;
+  height: 100px;
+}
